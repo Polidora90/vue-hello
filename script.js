@@ -1,8 +1,10 @@
 const app = new Vue(
     {
-        el: "#myTitle",
+        el: "#myDiv",
         data: {
-            msg: "Hello world!"
+            msg: "Hello world!",
+            image: "https://picsum.photos/500"
+
         }
     }
 );
